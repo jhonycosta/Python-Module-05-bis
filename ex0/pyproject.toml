@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "the-codex"
+version = "0.1.0"
+description = "Packages, Environments and the Alchemist's Toolchain"
+authors = ["Alchemist <alchemist@42.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+numpy = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
